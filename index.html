@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            html,
+            body {
+                  height: 100%;
+            }
+
+            body {
+                  display: flex;
+            }
+
+            form {
+                  padding: 40px;
+                  background: rgba(236, 240, 241, .45);
+                  margin: auto;
+            }
+
+            input {
+                  color: black;
+                  background: beige;
+                  border: 1px solid cyan;
+                  border-radius: 10px;
+                  padding: 10px;
+
+            }
+
+            input:hover {
+
+                  background: white;
+                  border: 1px solid olive;
+                  border-radius: 5px;
+                  padding: 10px;
+
+            }
+
+            input:focus {
+                  border: 3px solid cyan;
+                  border-radius: 5px;
+
+            }
+
+            /* 
+            input:focus {
+                  border: 3px solid red;
+            } */
+
+            div {
+                  margin-bottom: 1em;
+            }
+
+            .button input {
+                  width: 100%;
+            }
+
+            .remember {
+                  margin-bottom: .5em;
+            }
+
+            h2 {
+                  margin-top: 0%;
+            }
+      </style>
+</head>
+
+<body>
+      <form action="">
+            <h2>Please login</h2>
+
+            <div>
+                  <label for="email"><input type="email" id="email" placeholder="email" required></label>
+            </div>
+
+            <div>
+                  <label for="password"><input type="password" name="" id="password" placeholder="password"
+                              required></label>
+            </div>
+
+            <div class="remember">
+                  <label for="c-password"><input type="password" name="" id="c-password" placeholder="confirm password"
+                              required></label>
+            </div>
+
+            <div>
+                  <input type="checkbox" id="checkbox">
+                  <label for="checkbox">Remember</label>
+            </div>
+            <div class="button">
+                  <label for="login"><input type="submit" id="login" value="Login"></label>
+            </div>
+
+
+
+      </form>
+
+</body>
+
+</html>
